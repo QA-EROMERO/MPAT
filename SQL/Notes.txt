@@ -1,0 +1,12 @@
+El usuario debe tener un rol de Administrador
+En la Matriz de Seguridad se debe activar todo excepto el modo Card
+Antes de cada .type() se debe agregar un .wait(3000)
+El usuario debe tener asignado solamente el Rol de "Administrator"
+Tomar en cuenta que utiliza el Módulo de ACRM+
+
+En el Navegador
+Se deben desactivar los source.map en cada navegador que se utilice
+
+Cómo desactivar los source.map:
+F12 -> Settings (Tuerca) -> Sources "Enable JavaScript source maps"
+-> Enable CSS source maps

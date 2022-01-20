@@ -1,0 +1,25 @@
+{
+  "name": "monitorautomation",
+  "version": "1.0.0",
+  "description": "Proyecto de automatización de Monitor versión 5, construido con el Framework Sencha.  Este framework trae como reto identificar los objetos web con atributos dinámicos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "CERT",
+    "cypress:open": "cypress open",
+    "cypress:openChrome": "cypress run --browser chrome --spec cypress/integration/Monitor/Autentication.spec.js"
+  },
+  "keywords": [
+    "E2E",
+    "Automation",
+    "Framework",
+    "Cypress"
+  ],
+  "author": "Erick Romero",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}

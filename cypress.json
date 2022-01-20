@@ -1,0 +1,12 @@
+{
+    "defaultCommandTimeout":240000,
+    "screenshotOnRunFailure":true,
+    "screenshotsFolder":"cypress/screenshots",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Monitor Plus Automation Report",
+        "embeddedScreenshots": true
+    }
+}
